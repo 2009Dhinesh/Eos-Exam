@@ -1,0 +1,201 @@
+/* tablet */
+@media  (min-width: 600px) and (max-width:700px) {
+    
+    *{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    
+    body{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d1/Online_meeting_animation.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        font-family: "Itim", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* menu */
+    .sidenav{
+        display: block;
+    }
+    .respon{
+        display: block;
+        margin-top: 4%;
+        margin-right: 4%;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    }
+    .logo{
+        margin-top: .5%;
+        margin-left: 3%;
+    }
+    .logo span{
+        font-size: 50px;
+        padding-left: 10px;  
+        font-family: "Playwrite GB S", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal; 
+    }
+    .logo img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    nav{
+        margin-top: 2%;
+        /* margin-right: 4%; */
+        display: none;
+    }
+    nav a{
+        text-decoration: none;
+        color: #fff;
+        padding-right: -10px;
+    }
+    
+    /* main */
+    main{
+        width: 100%;
+        height: 500px;
+        overflow: scroll;
+        margin-top: 0;
+    }
+    
+    
+    
+    /* section */
+    section{
+        width: 70%;
+        margin-top: 3%;
+        float: right;
+    }
+    section .float_img{
+        columns: 2;
+        column-gap: 1px;
+        height: 160px;
+    }
+    /* content one */
+    .float_imgs{
+        columns: none;
+        margin-left: -2%;
+    }
+    .detail{
+        margin-top: 5%;
+        /* margin-left:6%; */
+    }
+    .aside{
+        width: 30%;
+        float: left;
+        position: fixed;
+        left: 0;
+    }
+    .aside img{
+        width: 40px;
+        height: 40px;
+    }
+    .aside a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 10%;
+        transition: all ease-in-out .8s;
+    }
+    .aside a:hover{
+        font-size: 20px;
+        text-decoration: underline rgb(20, 220, 180);
+    
+    }
+    /* end */
+    .float_img article{
+        float: right;
+        right: 0;
+    }
+    section .details{
+        float: right;
+        top: 0;
+        margin-top: 5%;
+    }
+    .details p{
+        margin-left: -10%;
+    }
+    
+    
+    /* aside1 */
+    .aside1{
+        width: 20%;
+        float: right;
+        margin-top: -20%;
+        margin-right: -7%;
+        /* background-color: #fff; */
+    }
+    .aside1 img{
+        width: 40px;
+        height: 40px;
+    }
+    .aside1 a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 10%;
+        transition: all ease-in-out .8s;
+    }
+    .aside1 a:hover{
+        font-size: 20px;
+        text-decoration: underline rgb(20, 220, 180);
+    
+    }
+    /* footer */
+    footer{
+        margin-top: 6%;
+        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    }
+    footer b{
+        float: right;
+        margin-top: -3%;
+        margin-right: 3%;
+        font-size: 20px;
+        font-weight: normal;
+    }
+}

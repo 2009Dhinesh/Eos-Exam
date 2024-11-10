@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Tourism</title>
+<link rel="stylesheet" href="../Css/main.css">
+<link rel="shortcut icon" href="../Images/main img1.png" type="image/x-icon">
+
+<style>
+* {
+    box-sizing: border-box
+}
+body {
+    font-family: Verdana, sans-serif;
+    margin:0 ;
+    /* background-image: none; */
+}
+.mySlides {
+    display: none;
+    margin-top: 2%;
+}
+
+img {
+    vertical-align: middle;
+    width: 400px;
+    height: 500px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    }
+
+    /* Caption text */
+    .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    margin-top: 2%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://cdn.dribbble.com/users/470545/screenshots/3120636/media/749e3a9f0a0303dd307037cc179b325d.gif" alt=""> 
+            <span> World Tourisum</span>
+        </div>
+        <nav >
+            <a href="">Home</a>
+            <a href="https://www.google.com/maps">World Map</a>
+            <a href="">About Us</a>
+            <a href="contact.html">Contact Us</a>
+
+        </nav>
+        <div class="respon">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+    </header>
+    <aside class="aside" >
+        <ul class="content_two_ul" >
+            <li><a href="taj.html"><img src="../Images/contenttwo_one.jpg" alt=""> Taj Mahal in Agra</a></li>
+            <li><a href=""><img src="../Images/contenttwo_two.jpg" alt=""> Nalanda in Bihar </a></li>
+            <li><a href=""><img src="../Images/contenttwo_three.jpg" alt="">Konark Sun Temple in Odisha </a></li>
+            <li><a href=""><img src="../Images/contenttwo_four.jpg" alt="">  Khajuraho </a></li>
+            <li><a href=""><img src="../Images/contenttwo_five.jpg" alt="">  Harmandir Sahib Gold Temple in Punjab </a></li>
+            <li><a href=""> <img src="../Images/contenttwo_six.jpg" alt=""> Hampi in Karnataka </a></li>
+            <li><a href=""><img src="../Images/contenttwo_seven.jpg" alt=""> Gomateshwar in Karnataka </a></li>
+        </ul>
+        <br>
+        <h2>Additional Resources</h2>
+        <br>
+        <ul class="content_two_ul">
+            <li style="margin-left: 5%;"><a href="../audio & pdf/inside-car-driving-sounds-250809.mp3">Audio</a></li>
+            <li style="margin-left: 5%; margin-top: 5%;"><a href="../audio & pdf/Seven-Wonders-of-the-World.pdf">PDF</a></li>
+        </ul>
+    </aside>
+    <div class="yt">
+        <iframe width="260" height="150" src="https://www.youtube.com/embed/8JTIwRtS238?si=_2O5zA1zl_rod92Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 7</div>
+            <img src="../Images/contenttwo_one.jpg" style="width:100%">
+            <div class="text">The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal.</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 7</div>
+            <img src="../Images/contenttwo_two.jpg" style="width:100%">
+            <div class="text">Nalanda, Bihar is famous for its ancient university and monastic complex, which was a center of learning from the 5th century CE to 1200 CE: 
+                Nalanda Mahavihara
+                The remains of this monastic and scholastic institution are a UNESCO World Heritage Site. The site includes stupas, chaityas, viharas, shrines, votive structures, and art works. </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 7</div>
+            <img src="../Images/contenttwo_three.jpg" style="width:100%">
+            <div class="text">Konârak is an outstanding testimony to the 13th-century kingdom of Orissa. It is directly and materially linked to Brahmin beliefs, and forms the invaluable link in the history of 
+                the diffusion of the cult of Surya, which originated in Kashmir during the 8th century and finally reached the shores of eastern India.</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 7</div>
+            <img src="../Images/contenttwo_four.jpg" style="width:100%">
+            <div class="text">Khajuraho is a famous tourist destination in Madhya Pradesh, India, and is known for its group of monuments, which are a UNESCO World Heritage Site: 
+                Architecture
+                The temples are known for their Nagara-style architecture, which is original and high quality. </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 7</div>
+            <img src="../Images/contenttwo_five.jpg" style="width:100%">
+            <div class="text">The first Harmandir Sahib was built in 1604 by Arjan, the fifth Sikh Guru, 
+                who symbolically had it placed on a lower level so that even the humblest had to step down to enter. 
+                He also included entrances on all four sides, signifying that it was open to worshippers of all castes and creeds.</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 7</div>
+            <img src="../Images/contenttwo_six.jpg" style="width:100%">
+            <div class="text">Hampi in Karnataka, India is a UNESCO World Heritage Site known for its ancient ruins, temples, palaces, and forts: 
+                Temples: The Virupaksha Temple, the Vittala Temple, the Hazara Rama Temple, the Krishna Temple, and the Pattabhirama Temple 
+                Other structures: The Lotus Mahal, the Elephant Stables, the Pushkarni, the Mahanavami Dibba, and the Queen's Bath </div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 7</div>
+            <img src="../Images/contenttwo_seven.jpg" style="width:100%">
+            <div class="text">The Gomateshwara statue, also known as the Bahubali Temple, is a Jain pilgrimage site in Shravanabelagola, Karnataka, India: 
+                Location: The statue is located on Indragiri Hill, a large rocky hill that's 133 meters above ground. 
+                Height: The statue is 57 feet tall and is carved from a single block of granite</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center; margin-left: 20%;">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+            <span class="dot" onclick="currentSlide(6)"></span> 
+            <span class="dot" onclick="currentSlide(7)"></span> 
+        </div>
+
+        <footer>
+            <address>
+                <p> Email : dwaranp@gmail.com . </p>
+                <p> Phone No : +91-7010382383 . </p>
+                <p> Address : Mollu Thirupathi Gouwder Street , <br>
+                        Melagudalur, <br>
+                        Gudalur, <br>
+                        Theni - 625518 .</p>
+            </address>
+    
+                <b>&copy;Dhisha@143 2024 My Website. All rights reserved.</b>
+        </footer>
+
+
+
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+
+</body>
+</html> 
